@@ -8,19 +8,19 @@ The exercise is to implement an algorithm that reads a set of **n** rooted trees
 
 The trees should be saved in the computer's memory in the form of general trees, using one pointer per son, one per brother and one per parent.
 
-**How to use the program:**
-Input
--> The value of n denotes the size of the set of n rooted trees in _NEWICK_ format
-Example:
+**How to use the program:**<br />
+Input<br />
+-> The value of n denotes the size of the set of n rooted trees in _NEWICK_ format<br />
+Example:<br />
 4
 (1,5,(10,6,3),(2,(8,7)),(9,4));
 ((7,(3,(4,9,(1,2)))),8,(5,(10,6)));
 (7,((6,(9,5),(8,3)),(1,(2,10,4))));
 (7,(8,3,4,6,1),(9,5,10),2);
 
-Output
--> **n(n-1)/2** comparisons of input trees (each with each). The order of comparison: 1-2, 1-3, ..., 1-n, 2-3, 2-4, ..., 2-n, ..., (n-1) -n.
-Example:
+Output<br />
+-> **n(n-1)/2** comparisons of input trees (each with each). The order of comparison: 1-2, 1-3, ..., 1-n, 2-3, 2-4, ..., 2-n, ..., (n-1) -n.<br />
+Example:<br />
 5
 7
 6
